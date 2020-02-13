@@ -79,19 +79,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="205dp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="148dp"
-        android:layout_marginTop="672dp"
-        android:fontFamily="@font/futura_pt_demibold"
-        android:text="@string/enter_as_guest"
-        android:textColor="#808080"
-        android:textSize="16sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/textView6"
@@ -114,6 +101,7 @@
         android:background="@drawable/btn_red_large"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="User"
+        android:textAllCaps="false"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,6 +115,7 @@
         android:background="@drawable/btn_white_large"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="Service Provider"
+        android:textAllCaps="false"
         android:textColor="#F44336"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -140,6 +129,7 @@
         android:background="#fff"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="Enter as a guest"
+        android:textAllCaps="false"
         android:textColor="#808080"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
